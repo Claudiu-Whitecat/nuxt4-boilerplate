@@ -4,6 +4,33 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['./app/assets/css/app.css'],
   modules: ['@nuxt/ui','@nuxtjs/strapi'],
+  fonts: {
+    defaults: {
+      weights: [
+          100, 300, 400, 700, 900
+      ],
+      subsets: [
+        'romanian'
+      ]
+    },
+    experimental: {
+      processCSSVariables: true
+    }
+  },
+  ui: {
+    theme: {
+      colors: [
+        'primary',
+        'secondary',
+        'tertiary',
+        'brand',
+        'info',
+        'success',
+        'warning',
+        'error'
+      ]
+    },
+  },
   app: {
     head: {
       htmlAttrs: {

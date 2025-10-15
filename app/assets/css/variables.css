@@ -1,0 +1,11 @@
+:root {
+    --system-fonts: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans',
+    source-sans-pro;
+
+    --clr-primary: rgba(242,52,100,1);
+    --clr-secondary: rgba(20,100,242,1);
+    --clr-tertiary: rgba(242,242,242,1);
+    --clr-quaternary: rgba(242,200,100,1);
+
+    --clr-brand: rgba(242,100,242,1);
+}

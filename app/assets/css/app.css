@@ -3,6 +3,20 @@
 @import "tailwindcss";
 @import './reset.css';
 @import './variables.css';
-@import '../fonts/stylesheet.css';
 @import './global.css';
 @config "../../../tailwind.config.js";
+
+@theme inline {
+    --ff-primary: Roboto, var(--system-fonts), sans-serif;
+    --ff-secondary: Poppins, var(--system-fonts), sans-serif;
+
+    --color-primary: var(--clr-primary);
+    --color-secondary: var(--clr-secondary);
+    --color-tertiary: var(--clr-tertiary);
+    --color-quaternary: var(--clr-quaternary);
+    --color-brand: var(--clr-brand);
+
+
+}
+
+
