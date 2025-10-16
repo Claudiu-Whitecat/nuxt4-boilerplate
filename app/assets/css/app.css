@@ -13,9 +13,12 @@
     --color-primary: var(--clr-primary);
     --color-secondary: var(--clr-secondary);
     --color-tertiary: var(--clr-tertiary);
-    --color-quaternary: var(--clr-quaternary);
     --color-brand: var(--clr-brand);
-
+    --color-info: var(--clr-info);
+    --color-success: var(--clr-success);
+    --color-warning: var(--clr-warning);
+    --color-error: var(--clr-error);
+    --color-neutral: var(--clr-neutral);
 
 }
 

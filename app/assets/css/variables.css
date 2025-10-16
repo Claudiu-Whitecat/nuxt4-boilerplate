@@ -5,7 +5,13 @@
     --clr-primary: rgba(242,52,100,1);
     --clr-secondary: rgba(20,100,242,1);
     --clr-tertiary: rgba(242,242,242,1);
-    --clr-quaternary: rgba(242,200,100,1);
 
     --clr-brand: rgba(242,100,242,1);
+
+
+    --clr-info: hsl(179, 64%, 48%);
+    --clr-success: hsl(121, 35%, 51%);
+    --clr-warning: hsl(0, 98%, 65%);
+    --clr-error: hsl(0, 98%, 65%);
+    --clr-neutral: hsl(203, 99%, 47%);
 }

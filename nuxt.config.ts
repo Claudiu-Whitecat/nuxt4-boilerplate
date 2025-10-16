@@ -6,6 +6,7 @@ export default defineNuxtConfig({
   modules: ['@nuxt/ui','@nuxtjs/strapi'],
   fonts: {
     defaults: {
+      // Define what font weights and subsets you want to use globally
       weights: [
           100, 300, 400, 700, 900
       ],
@@ -15,10 +16,15 @@ export default defineNuxtConfig({
     },
     experimental: {
       processCSSVariables: true
+    },
+    adobe: {
+      id: ['<some-kit-id>']
     }
   },
   ui: {
+    colorMode: true, // make it true if you need to implement a theme switcher (dark/light theme)
     theme: {
+      // Define custom colours here, then assign the custom colours in app.css
       colors: [
         'primary',
         'secondary',
@@ -27,15 +33,18 @@ export default defineNuxtConfig({
         'info',
         'success',
         'warning',
-        'error'
+        'error',
+        'neutral'
       ]
     },
   },
   app: {
     head: {
       htmlAttrs: {
+        // Set the language dynamically if you are using i18n
         lang: 'ro',
       },
+
     },
   },
   strapi: {
