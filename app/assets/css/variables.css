@@ -2,6 +2,7 @@
     --system-fonts: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans',
     source-sans-pro;
 
+    /* COLOURS */
     --clr-primary: rgba(242,52,100,1);
     --clr-secondary: rgba(20,100,242,1);
     --clr-tertiary: rgba(242,242,242,1);
@@ -14,4 +15,9 @@
     --clr-warning: hsl(0, 98%, 65%);
     --clr-error: hsl(0, 98%, 65%);
     --clr-neutral: hsl(203, 99%, 47%);
+
+    /* TRANSITIONS */
+    --ease-in-sine: cubic-bezier(0.12, 0, 0.39, 0);
+    --ease-out-sine: cubic-bezier(0.61, 1, 0.88, 1);
+    --expo-smoothing: cubic-bezier(0.16, 1, 0.3, 1);
 }
