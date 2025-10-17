@@ -17,12 +17,10 @@ export default defineNuxtConfig({
     experimental: {
       processCSSVariables: true
     },
-    adobe: {
-      id: ['<some-kit-id>']
-    }
+    // Add any other font providers here, e.g. Adobe Fonts
   },
   ui: {
-    colorMode: true, // make it true if you need to implement a theme switcher (dark/light theme)
+    colorMode: true,
     theme: {
       // Define custom colours here, then assign the custom colours in app.css
       colors: [
