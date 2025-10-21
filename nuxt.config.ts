@@ -3,19 +3,15 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
   css: ['./app/assets/css/app.css'],
-  modules: ['@nuxt/ui','@nuxtjs/strapi'],
+  modules: ['@nuxt/ui', '@nuxtjs/strapi', 'nuxt-umami'],
   fonts: {
     defaults: {
       // Define what font weights and subsets you want to use globally
-      weights: [
-          100, 300, 400, 700, 900
-      ],
-      subsets: [
-        'romanian'
-      ]
+      weights: [100, 300, 400, 700, 900],
+      subsets: ['romanian'],
     },
     experimental: {
-      processCSSVariables: true
+      processCSSVariables: true,
     },
     // Add any other font providers here, e.g. Adobe Fonts
   },
@@ -32,8 +28,8 @@ export default defineNuxtConfig({
         'success',
         'warning',
         'error',
-        'neutral'
-      ]
+        'neutral',
+      ],
     },
   },
   app: {
@@ -42,7 +38,6 @@ export default defineNuxtConfig({
         // Set the language dynamically if you are using i18n
         lang: 'ro',
       },
-
     },
   },
   strapi: {
@@ -56,6 +51,6 @@ export default defineNuxtConfig({
       secure: process.env.NODE_ENV === 'production',
       sameSite: true,
     },
-    cookieName: 'strapi_jwt'
+    cookieName: 'strapi_jwt',
   },
 })

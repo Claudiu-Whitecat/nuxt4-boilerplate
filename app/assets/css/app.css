@@ -1,41 +1,37 @@
 @charset "UTF-8";
-@import "@nuxt/ui";
-@import "tailwindcss";
+@import '@nuxt/ui';
+@import 'tailwindcss';
 @import './reset.css';
 @import './global.css';
-@config "../../../tailwind.config.js";
+@config '../../../tailwind.config.js';
 
 :root {
-    --system-fonts: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans',
-    source-sans-pro;
+  --system-fonts: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro;
 
-
-    /* TRANSITIONS */
-    --ease-in-sine: cubic-bezier(0.12, 0, 0.39, 0);
-    --ease-out-sine: cubic-bezier(0.61, 1, 0.88, 1);
-    --expo-smoothing: cubic-bezier(0.16, 1, 0.3, 1);
+  /* TRANSITIONS */
+  --ease-in-sine: cubic-bezier(0.12, 0, 0.39, 0);
+  --ease-out-sine: cubic-bezier(0.61, 1, 0.88, 1);
+  --expo-smoothing: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 @theme inline {
-    /* FONT FAMILIES */
-    --ff-primary: Roboto, var(--system-fonts), sans-serif;
-    --ff-secondary: Poppins, var(--system-fonts), sans-serif;
+  /* FONT FAMILIES */
+  --ff-primary: Roboto, var(--system-fonts), sans-serif;
+  --ff-secondary: Poppins, var(--system-fonts), sans-serif;
 
-    /* COLOUR */
-    --color-primary: rgba(242,52,100,1);
-    --color-secondary: rgba(20,100,242,1);
-    --color-tertiary: rgba(242,242,242,1);
+  /* COLOUR */
+  --color-primary: rgba(242, 52, 100, 1);
+  --color-secondary: rgba(20, 100, 242, 1);
+  --color-tertiary: rgba(242, 242, 242, 1);
 
-    --color-brand: rgba(242,100,242,1);
-    --color-info: rgba(44,201,198,1);
-    --color-success: rgba(86,174, 88, 1);
-    --color-warning: hsl(0, 98%, 65%);
-    --color-error: hsl(0, 98%, 65%);
-    --color-neutral: rgb(224, 224, 224);
+  --color-brand: rgba(242, 100, 242, 1);
+  --color-info: rgba(44, 201, 198, 1);
+  --color-success: rgba(86, 174, 88, 1);
+  --color-warning: hsl(0, 98%, 65%);
+  --color-error: hsl(0, 98%, 65%);
+  --color-neutral: rgb(224, 224, 224);
 
-    --color-white: rgba(255,255,255,1);
-    --color-black: rgba(0,0,0,1);
-    /* SIZING */
+  --color-white: rgba(255, 255, 255, 1);
+  --color-black: rgba(0, 0, 0, 1);
+  /* SIZING */
 }
-
-

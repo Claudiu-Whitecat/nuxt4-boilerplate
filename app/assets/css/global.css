@@ -1,25 +1,24 @@
 body {
-    font-family: var(--ff-primary);
-    font-size: var(--text-base);
-    font-weight: var(--font-weight-normal);
-    color: var(--color-neutral);
-    padding: 0;
-    margin: 0;
-    min-height: 100%;
-    width: 100%;
-    min-width: 100%;
-    position: relative;
-    font-smooth: always;
-    -webkit-font-smoothing: subpixel-antialiased;
-    -webkit-text-size-adjust: none;
-    text-size-adjust: none;
+  font-family: var(--ff-primary);
+  font-size: var(--text-base);
+  font-weight: var(--font-weight-normal);
+  color: var(--color-neutral);
+  padding: 0;
+  margin: 0;
+  min-height: 100%;
+  width: 100%;
+  min-width: 100%;
+  position: relative;
+  font-smooth: always;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
-    body {
-        scroll-behavior: auto;
-    }
+  body {
+    scroll-behavior: auto;
+  }
 }
 @media screen and (max-width: 458px) {
- 
 }

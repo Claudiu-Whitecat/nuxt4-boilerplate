@@ -1,21 +1,30 @@
 {
   "name": "nuxt4-boilerplate",
-  "type": "module",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "preview": "nuxt preview"
   },
   "dependencies": {
-    "nuxt": "^4.1.3",
-    "nuxt-viewport": "^2.3.1",
     "@nuxt/ui": "^4.0.1",
     "@nuxtjs/strapi": "^2.1.1",
+    "nuxt": "^4.1.3",
+    "nuxt-umami": "^3.2.1",
+    "nuxt-viewport": "^2.3.1",
     "vue": "^3.5.22",
     "vue-router": "^4.5.1",
     "yup": "^1.7.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "prettier-plugin-organize-imports": "^4.3.0",
+    "prettier-plugin-packagejson": "^2.5.19",
+    "prettier-plugin-tailwindcss": "^0.7.1"
   }
 }
