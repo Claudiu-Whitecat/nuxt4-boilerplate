@@ -2,7 +2,7 @@
 <template>
   <section class="">
     <div class="container">
-      <h1>Placeholder</h1>
+      <h1>Home page</h1>
     </div>
   </section>
 </template>
