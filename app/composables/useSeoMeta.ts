@@ -1,10 +1,10 @@
 type SiteMetadata = {
-  title?: string
-  description?: string
-  ogImage?: string
-  ogType?: 'website' | 'article' | 'profile'
-  twitterCard?: 'summary' | 'summary_large_image'
-}
+  title?: string;
+  description?: string;
+  ogImage?: string;
+  ogType?: 'website' | 'article' | 'profile';
+  twitterCard?: 'summary' | 'summary_large_image';
+};
 
 export function useSeoMetadata({
   title,
@@ -13,9 +13,9 @@ export function useSeoMetadata({
   ogType = 'website',
   twitterCard = 'summary',
 }: SiteMetadata) {
-  const route = useRoute()
-  const ogUrl = process.env.BASE_URL + route.fullPath
-  const siteName = 'Placeholder'
+  const route = useRoute();
+  const ogUrl = process.env.BASE_URL + route.fullPath;
+  const siteName = 'Placeholder';
 
   useSeoMeta({
     title,
@@ -31,5 +31,5 @@ export function useSeoMetadata({
     twitterDescription: description,
     twitterImage: ogImage,
     twitterCard,
-  })
+  });
 }

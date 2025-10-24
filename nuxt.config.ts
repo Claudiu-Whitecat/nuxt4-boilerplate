@@ -53,4 +53,4 @@ export default defineNuxtConfig({
     },
     cookieName: 'strapi_jwt',
   },
-})
+});

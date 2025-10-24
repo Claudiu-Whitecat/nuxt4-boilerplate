@@ -4,7 +4,7 @@ export default {
   printWidth: 100,
   tabWidth: 2,
   useTabs: false,
-  semi: false,
+  semi: true,
   singleQuote: true,
   trailingComma: 'all',
   bracketSpacing: true,
@@ -31,4 +31,4 @@ export default {
       options: { proseWrap: 'always' },
     },
   ],
-}
+};

@@ -5,4 +5,4 @@ export default {
       padding: '1.25rem',
     },
   },
-}
+};
