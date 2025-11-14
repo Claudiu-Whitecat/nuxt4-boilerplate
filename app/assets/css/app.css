@@ -3,7 +3,6 @@
 @import 'tailwindcss';
 @import './reset.css';
 @import './global.css';
-@config '../../../tailwind.config.js';
 
 :root {
   --system-fonts: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro;
@@ -12,6 +11,7 @@
   --ease-in-sine: cubic-bezier(0.12, 0, 0.39, 0);
   --ease-out-sine: cubic-bezier(0.61, 1, 0.88, 1);
   --expo-smoothing: cubic-bezier(0.16, 1, 0.3, 1);
+
 }
 
 @theme inline {
@@ -40,4 +40,13 @@
   --breakpoint-lg: 64rem; /* 1024px */
   --breakpoint-xl: 80rem; /* 1280px */
   --breakpoint-2xl: 96rem; /* 1536px */
+}
+.container {
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+@media screen and  (min-width:40rem) {
+  .container {
+    padding-inline: 1.25rem;
+  }
 }

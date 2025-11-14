@@ -44,7 +44,7 @@ export default defineNuxtConfig({
     url: process.env.STRAPI_URL,
     prefix: '/api',
     admin: '/admin',
-    version: 'v4',
+    version: 'v5',
     cookie: {
       path: '/',
       maxAge: 14 * 24 * 60 * 60,
